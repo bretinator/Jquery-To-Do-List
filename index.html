@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>To Do List Creator</h1>
+    
+    <div id="contentWrapperWrapper">
+        <div id="contentWrapper">
+            <h2>Manage Your Daily Tasks!</h2>
+            <div id="taskControl">
+                <form id="taskForm">
+                    <input type="text" title="taskName" id="taskName" name="taskName" placeholder="Enter new task name">
+                    <div id="controlBtns">
+                        <input type="button" id="addTaskBtn" name="addTaskBtn" value="Create">
+                        <input type="button" id="deleteBtn" name="deleteBtn" value="Delete">
+                    </div>
+                </form>
+
+                <ul id="tasksList">
+                
+                </ul>
+            </div>
+
+            <div id="taskDesc">
+                <button id="hideDescBtn" type="button">Close</button>  
+                <form>
+                    <textarea id="descInput" name="descInput" placeholder="Description"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

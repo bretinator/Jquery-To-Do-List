@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+    height: 100vh;
+    color: #483C32;
+}
+
+h1 {
+    font-size: 5vmax;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5vmax;
+    text-align: center;
+}
+
+hr {
+    color: #333; /* Color of the line */
+    background-color: #333; /* Color of the line for some browsers */
+    height: 2px; /* Height of the line */
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin: 5px;
+    padding: 3px;
+    font-size: 2vmax;
+    max-width: 50%;
+    cursor: pointer;
+    list-style-type: none;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vmax;
+    width: 20vw;
+    height: 20vh;
+    padding: 10px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vmax;
+    width: 15vw;
+    text-align: center;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vmax;
+    margin-bottom: 10px;
+}
+
+canvas {
+    position: absolute;
+    display: block;
+}
+
+#taskDesc {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    bottom: 0;
+    right: 0;
+    padding-right: 1vw;
+    padding-bottom: 5px;
+}
+
+#taskName {
+    padding: 1vw;
+    width: 90%;
+}
+
+#addTaskBtn {
+    margin-top: 10px;
+}
+
+#deleteBtn {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#popUpBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#taskForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contentWrapper {
+    background-color:mistyrose;
+    min-height: 100%;
+    width: 33%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px #888888;
+}
+
+#contentWrapperWrapper  {
+    display: flex;
+    justify-content: center;
+    min-height: 25vh;
+    padding-bottom: 10px;
+}
+
+#taskControl {
+    padding-top: 5px;
+    width: 100%;
+}
+
+#controlBtns {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
